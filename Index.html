@@ -2,44 +2,49 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <style>
-    .navbar{
+    .navbar {
       background-color: #15B356;
     }
 
-    h3{
+    h3 {
       color: #B35047;
     }
-    .textC{
-      color:#222;
+
+    .textC {
+      color: #222;
     }
-    .textC:hover{
+
+    .textC:hover {
       color: #B35047;
     }
-    p{
-      color:#444;
+
+    p {
+      color: #444;
     }
   </style>
 </head>
 
 <body>
-
+  <!-- Top bar -->
   <nav class="navbar navbar-expand-lg">
     <a class="navbar-brand textC" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- Dropdown menu for mobile/small screens -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+      aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
       <span class=".bg-dark">Menu</span>
     </button>
-  
-  <div class="collapse navbar-collapse" id="navbarToggler">
+
+    <div class="collapse navbar-collapse" id="navbarToggler">
 
       <div class="navbar-nav">
         <a class="nav-link active textC" href="#">Home <span class="sr-only">(current)</span></a>
@@ -50,57 +55,90 @@
 
   </nav>
 
-    <img class="" src="https://lh3.googleusercontent.com/hboJ9g_KMElGeTx44hJvdmCc9WoySgKomoPgnmn_afcOI4bS5yvokek0JuABCf3AH1C85b2kiKRwr-IXyDcIlPqV99dhKcc4bHsf4WkSU8g5tfwDU9VYCWujADqR7U6Izai3KPQE4iRBVWznEwnGtd-BkYuNkh8jcO0Ylg2UJjLhVRCF5BKPGbm27KDl9tiqN_jD3DpoGPs6Td6sXtNZ5XyBIHS25HVz7waUhCxdvVbSLc18ZmLmZ7pQD4XJIHD54x3FrRr-2eG5_FwyBKv7-2GALlo94uAMwO8E03Pf8yDRU0NyJD9aSnKiqnJgnqeiw-sOnNAxNLD6wBcU87OOEWmPJVPck-y0yRiqlpLECWj6d7L5Hlq-ewcyCI4IY6kfhVuyHoWzoJB_bFvTW_2aPfKwSGGWlAt7Gqwt-xUUIToyhSng9M-DkieN9ns4lC8FNO-GDBgO4UOaFhn5wKz4bVUAiI8i6U-HhqbZayfv7HC1vtF3pZKnKvFDWi0GrAVo5zqC9yZ8mLXjeuThs8cxFRpoIFGBfioKojcNsyGWJgGWJPEw_RO9yHp7L7FmYJFC5l35S2hWXCTTxH_Vy0xbi8Qde2puzfwFdwsu3Z3bjKbHO2oPY0Eyeg9xEN82riFSp3FKUMfCql7N2nHvMP4_4yAupUxId-RH1LySBIayYUf5g7naioIYUwkn-gg8rg=w1080-h810-no?authuser=0" alt="River witb rocks">
+  <!-- Main Article -->
+  <section class="container">
+    <img class="img-fluid row"
+      src="https://lh3.googleusercontent.com/uMUSZficOjOULAZkrzKWlDCdYq38f3jFfNfAv40gT2zWwIgEFfZnHLDmYnbrwKauRnNM59C-yva3byDQC7r1B3DX9-huSy_UKO6rk9gfUZvb4eYgfeYd3SkCfJzYdCjJVGtWpm0IlyYIcuk0jEUK9BSWw7riz1IvgW-lf8CJIe7qz1McoEi2U79cwImmz0p1MVIZTZ-rqg4EvNstsR_tO6fDeqf2mSn9Co-z0eLfMwZ8wiQnkYUxpakdCLYau_-j_TCiIlV46ixB8vumwcc695rGoZJdZYPqN32LukNIeyQRsKXgdzNY9TyCqloYQOOzuu3_RkeNr5UDQMsfMHAAxUpNgL1Qx9bUWNPZRP-rYW9blySrV2p0wcmXPY1vsnfWQomOfziM7G5UQ15J_g0kdQVEyRH28bQbc-V1SE3_TADZoOAVkTJPijsvZL2DJeqevtOfzkHMX6R0L-gQQFY866yJbI5zI0_BsOX3lf1-JVLIX2p8sUFROFAJp2ujGU0vUMpQ8wgVKpYN8WnBliC28o782z6Sfww2mYHxrL3eRsGns46dcaXDiabjsSQxKktU_rMZARuqQQjkBr1F7PzLlpalvUhNMDcwisFjIJ03oE5NO6VIogdcjOPJ7xpxGOreMyHQO8eUqWtbAYgDlf1_3foOVEkXXQFs01UAuKW8AuL6uGUwz1rc4RsDlVf_=w1500-h937-no?authuser=0"
+      alt="River witb rocks">
 
-    <!-- Main Article -->
-    <section class="container">
-        <Article class="">
+    <Article class="row">
+      <h3 class="col-2">Sebastian Rios</h3>
 
-            <h3 class="">Sebastian Rios</h3>
-
-            <img src="" alt="">
-            <!-- about Sebastian Rios -->
-            <p class="">
-                From rags to less rags, I am a latin who grew up in El Mirage, Arizona. Since the days of Bed wetting i
-                have loved Video Games which sparked the dream and hope to one day create my own; Even if that dream
-                still exists i now strive to be a Full stack Web Developer in hopes to work for some great companies.
-            </p>
-        </Article>
-
-        <!-- Homepage -->
-        <article class="">
-
-            <h3 class="">About</h3>
-
-            <img src="" alt="">
-            <!-- homepage discription -->
-            <p class="">
-                This website is simply my "tell us 3 interesting facts'' that teachers ask when you first start class.
-                Also it includes some contact info and pictures to help future employers or people who like me see who i
-                am. While it is somewhat unprofessional; I am a fun person that doesn’t take everything seriously.
-            </p>
-
-        </article>
+      <!-- image 1 with drop down -->
+      <img class="card-img-top w-25 col-3"
+        src="https://lh3.googleusercontent.com/XPjTOgZg4TJ5BBBLUHoewsDSTYPsixuDH02i7wYf_o4IHShOmpL6hzCRzIlm_oYMCgAungKmpwuFOFbu0troeCXJnB-Dq5GjFZXR3SX2oxXTscPN59aYq9gXKTb3yVAyKwwuUMLThRl6LMoCG3MnRoXo8kxkeX4wZwa2-slkP80wn11hVbTbEU_VyHRYz9MsWZYh9DBkedLKt-2i4_PA4QeJ5ge7ynNhi8-ItcssURTfp_bE-TbyjcBdZOgrvnUzkZANjlqRgprlBIo4pyMJxAN9j7pgc0rlsZTjXR6h2HngRvadQ4DDZRsSndD0YKfzDrRMSQyOUH_U4vxUjrAbwoZ5dvXEZrBRvHHuf66j1y4Fpqinwdmq4YPhgqVXqeVa70BYZkNk-_FP7GXpFAubmVeRCisI2O54fBCEkcEa7bvU96TscA4tSjn6PDjYItmVBbYFx5hJD_0koPNJH_smedXyzfec-CO6a5SJLz-T6LszoSjW15-ZeKQHk6HwHomKFlvs7MdaPqx3fl41L1446ird0yH-I-yV5FmI6J5QDhA6Zipn-m0baqqKPfiKvuk_iXT9scbkEXBzpKuY9jD6qbigVgqpDVv57BwUD_V0vxuZSKQ-7H-x04E6CzrELMq5IJxoio1zEmJplya69OecJMCCTTD9f1D9qMbNyVl01lHDCZZiJEDd1tLVedvflQ=w1080-h1440-no?authuser=0"
+        alt="Sebastian Rios" <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#selfie"
+        aria-expanded="false" aria-controls="collapseExample"></button>
+      <div class="collapse" id="selfie">
+        <p>
+          From rags to less rags, I am a latin who grew up in El Mirage, Arizona. Since the days of Bed wetting i
+          have loved Video Games which sparked the dream and hope to one day create my own; Even if that dream
+          still exists i now strive to be a Full stack Web Developer in hopes to work for some great companies.
+        </p>
+      </div>
 
 
-    </section>
+      <!-- image 2 with drop down -->
+      <img class="card-img-top w-25 col-3"
+        src="https://lh3.googleusercontent.com/mGx7ormP7J61dL2K27TnImU_1eOnqqN662udlaA-geo_h_EZQ3BXu2MNs4fSfkkWTNv-u_qBt526hY_-EU1B044rF084IqZojMC44LMWtANbNrz4rzyUrGxuwLiNEHD7QN4h1BRtyRDgUtPgGLOoaFEouhWzkaRCclQ0AJRX_85_jvOoWfO4u_VsYMpjB7DLRKttFKqh2F_STaBfjN5lqAVxu4Y9Fgl8oaEvAUm-TBQ6nh4UlwHlnILGkxNN25Lv_fcK2tGw52dAUOGSRiK3Zkk8pe97dcbFC8ROa5ElC8U1pHnX2I26l8K18-K9orB5Lp_M3KxeBnCpMMMDLr9-S5LWL3wSYGOoILylF13X_8RDFmFnGSO9guCjvR2ybbP2coLfIzsFmhNiWkZHP4S4trm1LBvEyqqC0HjyESMZsOwDqeqKOv5TxKuB2pDtGKrf-az_ufAPuD57uSDrbSrKgarpcHvgkM9nJVJ0jHB_-nulrjCS0BW53GvbvUVxeOARSCUuGIfy4oTROCMddQNz_9tprPiCzLKRuZkNeQbROCaid2spl_twF0l2fMur-DSknb48S1cJqIaoxkN5fGu4PysIrQMxnJB2H_Q8ArwngblgqKROP83IRjLihS0TWo82AwtGr4x2J1iM46i7QsPqR_4WBTX1vbkkNTrLiaFLZrM9oct3z9BdmAIVEPQP8g=w1080-h1440-no?authuser=0"
+        alt="Sebastian Rios" <button class="btn btn-primary" type="button" data-toggle="collapse"
+        data-target="#jacketPose" aria-expanded="false" aria-controls="collapseExample"></button>
+      <div class="collapse" id="jacketPose">
+        <p>
+          I am a servant of God, and a proud Christian. I lived and served a mission in Utah for the Church of Jesus
+          Christ of Latter Day Saints for 2 years; during that time I served in 7 cities, with 8 different companies. I
+          had the opportunity to lead 2 different districts of 6 other missionaries.
+        </p>
+      </div>
+
+      <!-- image 3 with drop down -->
+      <img class="card-img-top w-25 col-3"
+        src="https://lh3.googleusercontent.com/-jMss03F0UGeOYDituOGqOWSfERdO1awCzNt2GDICG1LqXK6P4WNDzfJ_BHl5i9JZjUez49ZoQ5jOWhes9d6IAWihOjLsxSAMd0qaPaLJ9y79ZKlMbh5IeUYmSJ7RADyhA4t2OJatc9Xm3CHlgqcq_8gtOw9C7-LjglV1Zw4x-07G02LUxX1JxwfIJAUtI11hB2hrHUgZI0yDt9rpGOC3atnBmSAtg8dMmDM7xKogkMRRQ2to2qap0tEB43EEjjosnT9aJLizG5Bay0mRHTfWbWr0QXmt8Nqvqqnc56tR1pk-yf3jCnwcXwjFaIraMPvbMKvlKTtgjwmZCGvdCKBoAGkUSoL00WObGQ2yTfg4VbRZEGBvP_oeLBkj_5fJuOLjEJHu9aT5H3TQm8lOIwgzUhViPP1ALI9-b5MA31YE0ScMaCp38lRnRi76-VA6RwnMnQ8xwM15_9szyO1SdH_vfFTGwdT-6yHEREg-Jk0ZdQdBBPAPvab_nGdd9TF80gPghIRrEviDYP6AWueBQYSazY81kXHUN6ZR-Ijg6PLq_p2GK2iD-lNAzH2PvvhhWZ05j8H35Ndzy_nX_p52WkaJwH6_cmopQ9LFFCAvuibrZOoi4HLUXLzMCWr4pRuTgwbbtmkdQ4xdQzNAeWdBKr3kd5inmIyHuAdUeYyTDjqepiIa1f_ZBAFrkZrCg5g7w=w1080-h1440-no?authuser=0"
+        alt="Sebastian Rios in front of a mirror" <button class="btn btn-primary" type="button" data-toggle="collapse"
+        data-target="#mirriorSelfie" aria-expanded="false" aria-controls="collapseExample"></button>
+      <div class="collapse" id="mirriorSelfie">
+        <p>
+          From rags to less rags, I am a latin who grew up in El Mirage, Arizona. Since the days of Bed wetting i
+          have loved Video Games which sparked the dream and hope to one day create my own; Even if that dream
+          still exists i now strive to be a Full stack Web Developer in hopes to work for some great companies.
+        </p>
+      </div>
+    </Article>
+
+    <!-- Homepage -->
+    <article class="row">
+
+      <h3 class="">About this site..</h3>
+
+      <img src="" alt="">
+      <!-- homepage discription -->
+      <p class="">
+        This website is simply my "tell us 3 interesting facts'' that teachers ask when you first start class.
+        Also it includes some contact info and pictures to help future employers or people who like me see who i
+        am. While it is somewhat unprofessional; I am a fun person that doesn’t take everything seriously.
+      </p>
+
+    </article>
+
+
+  </section>
 
 
 
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
