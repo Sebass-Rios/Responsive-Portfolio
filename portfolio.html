@@ -10,44 +10,196 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        .navbar {
+            background-color: #15B356;
+        }
+
+        h3 {
+            color: #B35047;
+        }
+
+        .textC {
+            color: #222;
+        }
+
+        .textC:hover {
+            color: #B35047;
+        }
+
+        p {
+            color: #444;
+        }
+
+        .picDis {
+            color: #222;
+        }
+    </style>
 </head>
 
 <body>
+    <!-- Top bar -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand textC" href="/Index.html">Navbar</a>
+        <!-- Dropdown menu for mobile/small screens -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=".bg-dark">Menu</span>
+        </button>
 
-    <header>
-        <h1 class="">Homepage</h1>
-        <h3 class="">Portfolio</h3>
-        <h3 class="">Contact Info</h3>
-        <h3 class="">More About me</h3>
-    </header>
+        <div class="collapse navbar-collapse" id="navbarToggler">
 
-    <img src="" alt="">
+            <div class="navbar-nav">
+                <a class="nav-link active textC" href="/Index.html">Homepage <span class="sr-only">(current)</span></a>
+                <a class="nav-link textC" href="/contact.html">Contact</a>
+                <a class="nav-link textC" href="/portfolio.html">Portfolio</a>
+            </div>
+        </div>
+
+    </nav>
 
     <!-- Main Article -->
-    <section class="">
-        <Article class="">
+    <section class="container">
+        <img class="img-fluid row" src="https://wallpaperaccess.com/full/350107.jpg" alt="River witb rocks" <button
+            class="btn btn-primary" type="button" data-toggle="collapse" data-target="#D-D" aria-expanded="false"
+            aria-controls="collapseExample"></button>
+        <div class="collapse" id="D-D">
+            <p class="picDis">
+                While it's a diffrent side of me that i tend not to show but i love playing D&D and other kinda of board
+                games!
+            </p>
+        </div>
+        <p>
+            Here you can find all sorts of info about me; click on the image to find something out!
+        </p>
 
-            <h4 class="">Sebastian Rios</h4>
+        <Article class="row">
 
-            <img src="" alt="">
-            <!-- about Sebastian Rios -->
-                <p class="">
+            <!-- image 1 with drop down -->
+            <img class="card-img-top w-25 col-4"
+                src="https://lh3.googleusercontent.com/YGcVaOm_gnDpIbo5eizZAgQ3RLDk-HUHD8uRUjuj-WtdcKWRnO2nGZUTqT4GtEaRag20gpHh1I_CtOixxS9gUoK8t6u9gKvvx4IAYuyw9b6wk8fQqBajC4fkJek0hQmGVFFV08qY0HA4cy4Ib22yo9C7qMRxptp86Hs7Nl8WBcpGyvdU7AI0U4CO2NR1YZrDzx76fhlEzPKGiKhZYzXCKamTzLi1_6qgbrWnGVjyG_iRDNEGyf8AJX5JzyR_ITS3AwV0vGZt74U_atafp7TGERXeLHnN3qkRQ2rx2DtCTX4RwmXiJ9q977FXi3duHEr24CKrHDjeSLl1fMWaZSaG2yAXpUn5aqPvdxxT-lf60bjoSHJmJ3cV06RfEYnwC7JI7r_U6O74pb5KEKJw8QhPTxqXp0d5NWi58eUR8C2G_U8Jcd894sasT3C91_M0gf34yZzQVx9tIKxUP2zIVtqmkpTBLno8xuUaHEXJELUOsqjPPe-_96B9WtWZ4_tTuPlfIepxnpwAh6woGRjp_JWRHej4xLKtZfR3Ec-PruBafCdESAS6jXZ_kSL90-bgyZe9Bhlks6DyvseB4VBAUYTnVWF78HSgB7QwkPRcVAKRuhvN__1kcQXtjuQgJO22lrOGGwdb7LYFNY5FzYSJfOJLXm7sLADfCQsDMC3nZMwryCoF1RSqrZP_b_8q2NDKfg=w1080-h1440-no?authuser=0"
+                alt="Sebastian Rios" <button class="btn btn-primary" type="button" data-toggle="collapse"
+                data-target="#theKid" aria-expanded="false" aria-controls="collapseExample"></button>
+            <div class="collapse" id="theKid">
+                <p>
+                    For the past 5 years, we have had the home of over 10 foster children and this is one of the many we
+                    have taken into our home! We have had her since she was 3 months old and she went back to her family
+                    when she turned 3.
+                </p>
+            </div>
+
+
+            <!-- image 2 with drop down -->
+            <img class="card-img-top w-25 col-4"
+                src="https://lh3.googleusercontent.com/pMBqvcbVCuhOcvw9M1rVnSTixnZvXV21pTsvFToNEWU4aoj7-ddGvolWtTgUwTUUeCBZy8fowvAx41Y1NNYS1suSc9PF7MVOBtilEimVlqeLTWI80cQtIbsEBMoiN7mhoBzOc8OMeCqhUxX32gq2HMJUHt2Wn7b8BiEvHtS2b08nkq1Va4L9BV2Z81RSNx6tTxVTc6k6NbRjV10dn2EVpNadfnpFB-tTKQzAhewDx-nK5XoDskV7LOSfNG2bPATc8TjUJt-a1jiimVDS7PWauVT_AbR_1IvuboGAOAnkHvmDdqfcpO-9kK4nww9tlPj9F8HSVbc62QsArVc7OUeA-3baaGXs6YDRMJS0gRdDMHTm1Xq48Ipi6-n-BRLo0DBBVLRNxAxu5hgpQenjrgAFK8RxVl9A6A6CtifwRTc3G_G37NEUVmGJF6wjXr7C5owTNKV3jK6sPNwxT_TDSB9sTjOsciCw9zYUhHE3tmwwABNSwU0vc2FOSNbi0ilYndtXUSs6McIDYsqrFF2oKcG_194LO0LF9ArTJ8cQBLM5EE5mJ1DLusH9o5h5Mk4poYLu-tytNPokU3yDjrVnTq_EG58BILNZ_ci0EQb0YCS9gFgkKSsxfzjvuWnjJfIsF6yKL4mtu_YIplGqXAV0la-sCJ3cKRLjVrxZc_rR8n1A0njRKYuKoENuvxPYjNMiog=w1080-h1440-no?authuser=0"
+                alt="Sebastian Rios" <button class="btn btn-primary" type="button" data-toggle="collapse"
+                data-target="#sister" aria-expanded="false" aria-controls="collapseExample"></button>
+            <div class="collapse" id="sister">
+                <p>
+                    For 18 years my sister has been with me. We haven't really been all too apart from one another, we
+                    have a close relationship, sadly.
 
                 </p>
+            </div>
+
+            <!-- image 3 with drop down -->
+            <img class="card-img-top w-25 col-4"
+                src="https://lh3.googleusercontent.com/0S7HhR52KnjCwtpRHrU7KtwqXwIDmKuXgNlVgY7CHfABK5Xqyr7_R-fJbVcIUAy1t1iAD97PB2o030sYAzbdIlAWbJcE1i4P5fPuyg3qOSvpCTffLnfM63wPfV31ea1mTLEa_98JIRzT3lo-qsbnGKQM9ox04ysNSuIHKqh3qiBsq2gb0FpiN1N-1aGBglzCPJL5nfkJaxQCeGXqaNGjvG3kRd2UpY3E0Akz6g2aAYLAXy89Wfuw0X19sxYqdQhzVEMciFkt0WAuATfJMDGmroWWHY2QDZrYEiZdvCe_rha0F35XUgNq1fz5sHwDGGHAVFU4JSX22Qwhq3nl1h2E9tQ1m84Rfmi5fFguoibOB1bodPz8zV5LF5suShqd-iwXM3wo6D67NNpJm6UCwkvR_MHbMR9cWD6bXb60oEdIVh0DiQTOKWdDpXw7rZhuZsz6dfwPSdZdHaHif8QQw_gnbb6Ma0nht3Y_p-5OfZoFL9rVI_z540oha-XiDqxpacldhvtnvNMXul-9X3bdyBS_qwZA1sV15rZck8R1rFUt-zNuRPw-22vuqInFlaH07aC9XpGMEzTDm-2FgBIJRGV03LZQpkMeUPlwYQ4jM-W71_XpeyWSJe6uVK323EtCALWm9pLJwQLHF3WPV3WSEvImY1DgO5qkE7sJitY0BF0zntbV4Wt3ym-ulg9-lNWvLg=w1080-h1440-no?authuser=0"
+                alt="Sebastian Rios" <button class="btn btn-primary" type="button" data-toggle="collapse"
+                data-target="#painting" aria-expanded="false" aria-controls="collapseExample"></button>
+            <div class="collapse" id="painting">
+                <p>
+                    While I don't paint and I am not very good at it, my sister created a small business of her painting
+                    and well this is one of them.
+                </p>
+            </div>
+
         </Article>
 
-        <!-- hobbies -->
-        <article class="">
+        <!-- article 2 -->
+        <Article class="row">
 
-            <h3 class=""> </h3>
+            <!-- image 1 with drop down -->
+            <img class="card-img-top w-25 col-4"
+                src="https://lh3.googleusercontent.com/obR2z2lIv4UA4VjsuCrELjrbRHHPTdb3jbn5D5Gy85k_nUk-3rZpzRb79Un7hVO5IVfWa0FBMFj_95pe_1KJH9S0Qlg4DnJhFn3nLbvBMXGftUAvphy0UxL6HP7E03aRyvv4zJ3DURA_Y8-y8VhRlE8HE0ovwrX5R0I_OdaetfjXr8JjcQaVasYgvKuqw5KTiXcktr5P6fgBh5A3Gx4u9Rg_wBtbP7KyrNobYHtkXkA08M8PTLNwH0gGP6uFZR5fbSek1F-sGYPakgGAG6Q3C13OuwzdjGL-krj27rlXPJrKRDau2uGQ3TWoodJAPhsZ1CAErnJq6x094AXKEJynSg1V_GcL8kFR84b_wLdZ1AvSAeM6SblgMHz1aK-JUSvZqHXt8wwQ7_Mhwbe7fWxiIgWDj6RNja4AxBgaPdzGs2o4VCYWtn34pmWzDuK1HT-zArjG6AjP2njyplFt9MSy8DhFmDP0vzW1z03fWSKhQ99VTz1bBT0i1o1OCg_Jq8so2bvIOoxOEkcyvG1RtVA5E9K-_jp3fnuVyaeG48VCJZC2WqEE28ts9xR37D76ytePN3XSjCO4Nv10vSza-H-4RGi2kiMTU1jsFytkJ1Tz4QoK-AxD4CZxkOEgUa0GZwqVY6hHLx94UusSlKKHGvjbWg0rOBPGmo5P9iJhBv6uRomUfMnPosVtN8-RYt16hA=w960-h962-no?authuser=0"
+                alt="Sebastian Rios" <button class="btn btn-primary" type="button" data-toggle="collapse"
+                data-target="#meme1" aria-expanded="false" aria-controls="collapseExample"></button>
+            <div class="collapse" id="meme1">
+                <p>
+                    I love memes, i'm sure all of us do. However Mr.Bean is one of my favorite memes and he stands in a
+                    special place in my heart. Weirdly enough my cousins when we visited our Grandma would always watch
+                    his show and movies.
+                </p>
+            </div>
 
-            <img src="" alt="">
-            <!-- hobby discription -->
-            <p class="">
 
-            </p>
+            <!-- image 2 with drop down -->
+            <img class="card-img-top w-25 col-4"
+                src="https://lh3.googleusercontent.com/SfzabZ-GyxGNy42-d9bHRcnYNFvCGD1SuVzyfUZiXZbRopy22PWSY49YrWFtwen0RRvKsbOfx7Vrm9TESd6Ol9M1IXjNMCrQivvFDaKDN2--AZiksWkRViNmF0tZzXLmCID4WTllgCLwBjUDydRAUK0FblIvSSg2gx9kD7QPJhtCFvecPsOh6LpfhuNDos3INwxxRuULC7WEB-XuqiFFgTuLLqRNf92f21GWQxJseRnPxCysSPTXuocuYxYXQRG6WVvXXxYDfRWjuy9xU7-P3R3sAGIaZWv2GjhDMS6SzFQmFWwskDCj80t6ELdzHA7rqC2YX3VoH3ky9rGVq2QuGZ5P6DtjAPQG4fCZ_7zg7swzQBiXAa2w6svFY6yigORQq2ipuRzTsv2s_jLEKVZSUKoiWyUJz-HlucKdj1rFAKFEU2JqKW0Ce_2jDl8Y5nM5dYz6vRzYB0semT7hLhYxiuh60b3132YVwQpQ3Vm1SMfMEJC0bdlYwLomrc1yJ00f6uK_ZyGZzARsnPZUj_qCf2VxrrVGtpMv2XKEUnYeVRdJk_w5l_MRGWUw7NaIyx6ao9BZPcvwyK6F3iGckfdFtyeXF19EoTvo2DGftEeTYaf0b6AQ2FnSo-s5KF5TwmTLo3mdalm7fDfsw2zYQyQ9kEQ74ooHdNre-ffojc2J7NbO3T65pzzujtBpUYPjvg=w699-h835-no?authuser=0"
+                alt="Sebastian Rios" <button class="btn btn-primary" type="button" data-toggle="collapse"
+                data-target="#meme2" aria-expanded="false" aria-controls="collapseExample"></button>
+            <div class="collapse" id="meme2">
+                <p>
+                    I love memes, part 2, well this is just a normal meme and tbh i don’t know what to put here.
+                </p>
+            </div>
 
-        </article>
+            <!-- image 3 with drop down -->
+            <img class="card-img-top w-25 col-4"
+                src="https://lh3.googleusercontent.com/vV-JT15N8Tm6A0N0a5182mCBzDsbR55K4JoaAGgT4q59-_vAAGtrN3dCGrvufExdbZwgPObHuL9f4L3Kk-lHUQ2o-cu_zZpBYn0BWso3bZGKcuMtKnI-VaTQFcnEh24Y8NYjv-oSpyAE36Zms6Mn_sPO0kHx_OLlukKxrDltdf38OvxmUj3jIxIqFPqBq5xIdtaDldS213E5T680bmg9CFUi7YXG43ncLkoBpQSl0bKJLghoRMtk7kZ7JjZ4-r9u-67U02Tfxn_0rYpxpRrgKvD0wkFvOQ6uKmApoLTTba8tl6X2McwPnKgxKlws0d_MkLa8Go6entpdcznGno675OV4DgTnv63UglLPcz3dtNj-XEWfRfBKCklLHuGewb9B9SYj8jqJBgSAE6WD6s47HheHIYfPQL9FxN10DTlX6K9soeLyC1KNvP1CK-KmVrF_YzFZZduD5-sdZVC9_LgLQ2Wj-Pbb4uj7P08kxJ2HvCmB05a-qAFRG0INR86Xgxri4bUhGiJguYsr9e2oGXr2WJVn2fJz0niY4eNk-epjkfSxZg00uURgSRLpznw33FAmcKy9-P-EoTIAY6hziEhnTGd6wORkjZ-tF6dpSoeF11llh9Fj5ey_m4NqiSmNOEmX0O27Ij6gIuU6-grQO0g_m3p1fdLGs62j1PyTMuwAIZHt0zyZydsmkbuXWGW6iQ=w1080-h1440-no?authuser=0"
+                alt="Sebastian Rios" <button class="btn btn-primary" type="button" data-toggle="collapse"
+                data-target="#mom" aria-expanded="false" aria-controls="collapseExample"></button>
+            <div class="collapse" id="mom">
+                <p>
+                    I love memes, part 2, well this is just a normal meme and tbh i don’t know what to put here.
+                </p>
+            </div>
+
+        </Article>
+        <Article class="row">
+
+            <!-- image 1 with drop down -->
+            <img class="card-img-top w-25 col-4"
+                src="https://lh3.googleusercontent.com/G54S8p1DU-wNiaOx4IoxISbX6o_qK7tKrpkACcmPmpccZ4G3fd0KvLALEn11W358pTgr1DdJEPRTiKv276G82hijuWv0WjcXEfAz_My1a9x4JfYGMC7Y0SSGqC9TgKNAd0WQiMqnlwd4LbVKf-Qc1ILoPDb_-TmfLg3g7xYN6s6b2QHOP8HJFCRdkWs8aoPc7gR-tELHamU1B6qd9Zvud-AkFr0ZZyomHjhW69nnKngSypLwO2-39-al_OXIH7RgzgeahnaiMR4jCfJr6S1PbhQEIX2DCkSvGNLD2xFYD5ix3ia5YzYAC7zSRgyfo2b0Xdhbmu2feY55HddoSTJISMFXk6gY9pSe5bixckuouiBfK0ycRa8Fjf81hROxnJFRWQ9JMvSyS0wPWVVb-QFtRZPjLSAJ0c-iUwIRVITmt2HpwJ9F9bNcnXrxFF6pKEXFH_x1cLrGnQ-Z1x1tdOj_vL768fM2WyGBn6paNjKAnZyetFTkDHD6YoqtbkseQnVcXjDoH_CMNcT5oewtB5K13MkPiGCbtVd9H0K_b3PhgAyuPZRW1EtViZfY_tA6W5oAJ3nFd1TpRxgNkDBkWjAeVBcKrlzPLWJ8B0043uzljWVFOclpl-VeH3dP6-dBdr8vGe6kYdLqOvhlA5NDbJEk8ss3MarAGL9dGmvYX7rkXvzIih5EzyxU87XymwY3cQ=w1080-h1440-no?authuser=0"
+                alt="Sebastian Rios" <button class="btn btn-primary" type="button" data-toggle="collapse"
+                data-target="#pcMasterRace" aria-expanded="false" aria-controls="collapseExample"></button>
+            <div class="collapse" id="pcMasterRace">
+                <p>
+                    This is my pride and join, known as “DESTROYER” simply for its power to destroy any video game or
+                    program that comes its way. And destroying our power and internet... Oh well a good price to pay.
+                    But its helped me through my Bootcamp and become a Semi-Pro in video games.
+                </p>
+            </div>
+
+
+            <!-- image 2 with drop down -->
+            <img class="card-img-top w-25 col-4"
+                src="https://lh3.googleusercontent.com/pZwV13woLuvCAqSTgpVWQia8-D9SNQbr5NpDqPU_jNUgm7oy1F1_zFXMAgTnFtvApHlw7-m1IuZnfn3N8T2nvYFaDpeGhBhQcEMb_TCBQ-OIH2No8MLXMWBefBLHZPYXrJ6B5X437YSsn01d_bfw9iakvEkXNP9sLF2wSsMaooyJjJakvpgt7f-rczg8RSir6LQ-0zJBSUCVkvvrjJeEjae1Iqz-xLbIADm3pC-WVNNtrBbReHUeHSVrltqiakUi9FCb2Z5pWSUCu4xQ1GycEnaUpoeCrYt0L-a9m6UPIEQaA2aQsd00ycZaoTYdnwyOTrfRO_XrvzicPBtEjkGA7mYKb9Snza3OHilsZLLmFMclyUK_bFBZd_XbUFwuJXYVXEfLT6PaCJZ75Q3FEoWUN0PhKModypSbvd1tEJluCK6Gs4T4Eb-Q1uzt6KmflcwFehk_ujsz_nxexhDLk1lYa_orYVaJ44vc2ur3kLNYspPNPLZpD2ysRuH3b0fF_P_qSQRqdDzXURZ5E5VVVLEAhiwCdrQ8_Qt-kAnUiIbSJcvBUaozYKjvPRDEKddXyrAV3OKmq8z8JKWNdFPWi1sOvyTTzSsCtCAiOWa4y7lyCxkokYlO9x4DvmDtZ3uZJC0Nx1cI3wFBb6eGyKE1gNywj1K3u8Mq3ENHhbVvBhdnC56LX_BXssPrSioha0CZzw=w1080-h810-no?authuser=0"
+                alt="Sebastian Rios" <button class="btn btn-primary" type="button" data-toggle="collapse"
+                data-target="#mission" aria-expanded="false" aria-controls="collapseExample"></button>
+            <div class="collapse" id="mission">
+                <p>
+                    Here is a time of true peace and joy. These are a couple of my buddies that I served with as
+                    missionary for the Church of Jesus Christ of Latter Day Saints. I served in south Salt Lake City. I
+                    spent most of my time in West Jordan and nearby cities.
+                </p>
+            </div>
+
+            <!-- image 3 with drop down -->
+            <img class="card-img-top w-25 col-4"
+                src="https://lh3.googleusercontent.com/HZxDNTCMuKSXH6LJWmjiqD_6XWz9Q7yRawHwJHqPkVqMDEYUJ-LAFvhVpJwgDFQ_amXxU9SUDdfV_14NAn-WAMi0BY7W3Ws8UtY2e7stPfbOYVKzqeZua1lod3ZXJOwj8rZuxxe0ilJX9SvJgDMZFWnDQ50Tvnl7qrHddsjnxZA48kuvverDKUbIMsbUATgJ6BSUUFsKYlguktFf2F-1NyLj9gDvdsE6GgsaO58QyrnPot0SxSN0MIFkAFHbmqTHQyZ-nRT7yQaskDFOUpNE7wXGp-AIAzMWeTHozGJ08n98vcKuQA9RDWY1nNFiXmXB-7Pb9cuM-HueKZpx9NzgfgKC2jpb3GQ-7zFQuHqafPPxv2I4guMlwdj_V23aGbGw-0YXllvlM6ySuoBg011BC23WLrWCY-wccQk9zhq2s8x799MizMQoaz2G-N4aCBHSGChYM5c6ygsAIgoWjwmr0QzjHSJUyPkZu20zBBHFiKIrBgUgVtbadFn-Wrdml4wH7MKEoAr_2d9-GGr3sF4TB5b4HuWHuU156vNPvpht-G7CQA2Kipy2QGua7T-S_gqbj7gS5J74kocHn7cufqbnLV3ybEGJsrHo2we00W_bWsWJbOKb3jFu4-STc86iVfNznuWZGYpAh8cnGSF3Qhv-2ACwnihyoQSRxU5r_CGAYVf1STPDiBgHfo0We8yqTA=w1080-h1440-no?authuser=0"
+                alt="Sebastian Rios" <button class="btn btn-primary" type="button" data-toggle="collapse"
+                data-target="#mission2" aria-expanded="false" aria-controls="collapseExample"></button>
+            <div class="collapse" id="mission2">
+                <p>
+                    As a member of the Church of Jesus Christ, I wasn't born into it but I was baptized a member in 2017
+                    and I served from 2018 to 2020. I love God and Jesus Christ who have helped me be the man I am
+                    today.
+                </p>
+            </div>
+
+        </Article>
 
 
     </section>
